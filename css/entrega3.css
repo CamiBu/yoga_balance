@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* Navegador */
+.header__nav {
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  background-color: lightgrey; }
+
+.header__nav a {
+  list-style-type: none;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Quicksand-Light;
+  color: white;
+  text-decoration: none;
+  position: flex; }
+
+.header__nav a:hover {
+  color: 00CED1;
+  cursor: pointer;
+  text-decoration: none; }
+
+.header__nav--fondoEstudio {
+  background-image: url("studio1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 670px;
+  opacity: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.header__nav--estudio {
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  background-color: lightgrey; }
+
+.header__nav--estudio a:hover {
+  color: 00CED1;
+  cursor: pointer;
+  text-decoration: none; }
+
+.header__nav--estudio a {
+  color: black;
+  list-style-type: none;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Quicksand-Light;
+  text-decoration: none;
+  position: flex; }
+
+.nav_imagen {
+  height: 100px; }
+
+.main__titulo--estudio {
+  position: absolute;
+  text-align: center; }
+
+.header__nav--posicion {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.header__nav--fondo {
+  background-image: url("Yoga_Balance.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 670px;
+  opacity: 80%; }
+
+.header__nav--metodo {
+  background-color: B0E0E6;
+  color: black;
+  text-decoration: none; }
+
+.hvr-pop 50% {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.hvr-pop 50% {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
+
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1; }
+
+.header__nav--fondoClases {
+  background-color: #B0E0E6; }
+
+/* Sección media - subtitulos */
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: Quicksand-Bold;
+  margin-top: 20px; }
+
+.main__parrafo--metodoBalance {
+  text-align: left;
+  font-size: 15px;
+  font-family: Quicksand-regular;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+/* Contenidos */
+/* Tabla-Boostrap*/
+.table-hover {
+  color: 00CED1; }
+
+/* Media */
+/* Videos-index-flexbox*/
+.main__media--videosIndex {
+  padding: 1px;
+  overflow: hidden; }
+
+.media__video {
+  padding: 1em;
+  margin: 1em;
+  float: left;
+  box-shadow: 5px 10px 18px #888888; }
+
+.main__titulo--clases {
+  width: 400px;
+  height: 50px;
+  transition: all 2s;
+  font-size: 10px; }
+
+.main__titulo--clases:hover {
+  height: 100px;
+  width: 1450px;
+  padding: 20px;
+  background-color: #FF1493;
+  overflow: hidden;
+  opacity: 50%; }
+
+.botonera_formulario {
+  text-align: center; }
+
+.botonera_formulario--clases {
+  background-color: 00CED1;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; }
+
+.botonera_formulario--clases:hover {
+  color: black; }
+
+.main__titulo--animacionClases {
+  font-size: 27px;
+  text-align: center;
+  font-family: Quicksand-bold;
+  display: block;
+  margin: auto;
+  margin-top: 10px; }
+
+.main__imagenes--bienvenida {
+  color: #48D1CC;
+  background-color: #696969; }
+
+.main__imagenes--bienvenida2 {
+  background-color: #48D1CC;
+  color: #5F9EA0; }
+
+.main__parrafo--estudio {
+  color: #696969;
+  background-color: #5F9EA0; }
+
+.main__imagenes--estudio {
+  padding: 1px;
+  overflow: hidden;
+  wigth: 564px;
+  heigh: 363px; }
+
+.main__imagenes--bienvenida {
+  padding: 1em;
+  margin: 1em;
+  float: left;
+  wigth: 564px;
+  heigh: 363px; }
+
+.main__imagenes--bienvenida2 {
+  padding: 1em;
+  margin: 1em;
+  float: right;
+  wigth: 564px;
+  heigh: 363px; }
+
+/* Grid-pag-clases*/
+.grid {
+  max-width: 1300px;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 300px 300px 250px 490px;
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 1rem;
+  margin-left: 10px;
+  float: left;
+  width: 100%;
+  height: 100%; }
+
+.gridImg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  align-items: center; }
+
+.item-a {
+  grid-row: 1 / 4; }
+
+.item-b {
+  grid-column: 3 / 5; }
+
+.item-c {
+  grid-row: 2 / 4; }
+
+.item-d {
+  grid-column: 3 / 5; }
+
+.item-e {
+  grid-row: 4 / 3; }
+
+.item-f {
+  grid-row: 4 / 3; }
+
+/* Footer */
+.grad {
+  background-image: linear-gradient(to left, white, LightGrey); }
+
+#logoContent {
+  font-size: 10px;
+  font-family: Quicksand-Light;
+  font-style: italic;
+  text-align: center; }
+
+#imagenLogo {
+  display: block;
+  margin: auto;
+  height: 100px; }
+
+.textoFooter {
+  text-align: center;
+  font-family: Quicksand-Light;
+  font-size: 10px; }
+
+.textoFooterClases {
+  text-align: center;
+  font-family: Quicksand-Light;
+  font-size: 10px; }
